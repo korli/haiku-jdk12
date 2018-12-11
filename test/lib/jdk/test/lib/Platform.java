@@ -119,6 +119,10 @@ public class Platform {
         return isOs("sunos");
     }
 
+    public static boolean isHaiku() {
+        return isOs("haiku");
+    }
+
     public static boolean isWindows() {
         return isOs("win");
     }

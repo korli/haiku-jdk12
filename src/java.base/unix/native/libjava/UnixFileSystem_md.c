@@ -66,7 +66,7 @@
   #define NAME_MAX MAXNAMLEN
 #endif
 
-#if defined(_ALLBSD_SOURCE)
+#if defined(_ALLBSD_SOURCE) || defined(__HAIKU__)
   #ifndef MACOSX
     #define statvfs64 statvfs
   #endif
